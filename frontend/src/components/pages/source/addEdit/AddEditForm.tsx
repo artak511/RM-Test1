@@ -11,7 +11,7 @@ export const AddEditForm = React.memo(() => {
   const { onSubmit, source, form, navigate, mode } = useAddEdit();
   const [allTags, setAllTags] = useState<DefaultOptionType[]>([]);
   const requiredRule = { required: true, message: 'Required Field' };
-  const isAddMode = useMemo(() => mode === 'Add', []);
+  const isAddMode = useMemo(() => mode === 'Add', [mode]);
 
   useEffect(() => {
     (async () => {
