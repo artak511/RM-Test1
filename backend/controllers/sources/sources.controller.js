@@ -20,8 +20,8 @@ const listSources = [listSourcesDto, function(req, res, next) {
   let data = SourceStore;
 
   if (search) {
-    const _search = search.toLowerCase().trim();
     console.log(search, "✅ => search");
+    const _search = search?.toLowerCase()?.trim();
     data = data.filter((element => {
      return  element.name.toLowerCase().includes(_search) ||
       element.ipAddress.toLowerCase().includes(_search) ||
