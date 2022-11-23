@@ -1,4 +1,4 @@
-export const SERVER_URL = process.env.REACT_APP_BACKEND_URI || 'http://localhost:8080';
+export const SERVER_URL = process.env.REACT_APP_BACKEND_URI || 'http://localhost:8000';
 export const defaultPerPageCount = 10;
 
 export const Paths = {
