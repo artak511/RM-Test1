@@ -1,0 +1,23 @@
+.sources {
+    padding: 20px;
+}
+.sources .panel > div {
+    margin-bottom: 20px;
+}
+.sources .panel table thead tr th {
+    background-color: var(--RM-HeaderColor);
+    color: white;
+}
+.sources .panel table .actions {
+    text-align: center;
+}
+.sources .panel table .actions button {
+    text-align: center;
+    min-width: 40px;
+}
+.sources .panel table .actions button:first-child {
+    border-radius: 6px 0 0 6px;
+}
+.sources .panel table .actions button:last-child {
+    border-radius:  0 6px 6px 0;
+}

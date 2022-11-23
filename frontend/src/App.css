@@ -1,0 +1,62 @@
+:root {
+    --RM-HeaderColor: #414953;
+    --RM-BtnBlue: #00a3e6;
+    --RM-textColor: #212529;
+    --dangerColor: #dd0404;
+    --warningColor: #ffa500;
+    --successColor: green;
+}
+
+.App {
+    color: var(--RM-textColor);
+}
+
+.App header {
+    background-color: var(--RM-HeaderColor);
+    color: white;
+    height: 55px;
+}
+
+.App header h3 {
+    margin: 0;
+    padding: 15px;
+}
+
+.panel {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+    margin: 0;
+    padding: 20px;
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum", "tnum";
+    position: relative;
+    background: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #eaf4fb;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ant-btn-primary {
+    background-color: var(--RM-BtnBlue);
+}
+
+.ant-btn.warning {
+    background-color: var(--warningColor);
+    color: white;
+    border-color: var(--warningColor);
+}
+
+.ant-btn.warning:hover {
+    background-color: #fab551;
+    color: white;
+    border-color: var(--warningColor);
+}

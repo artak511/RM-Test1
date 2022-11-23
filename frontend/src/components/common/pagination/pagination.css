@@ -1,0 +1,28 @@
+.pagination {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.pagination .page {
+    min-width: 30px;
+    min-height: 25px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: var(--RM-HeaderColor);
+    border: 1px solid var(--RM-BtnBlue);
+    border-radius: 3px;
+    padding: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pagination .page.active {
+    cursor: auto;
+    font-weight: bold;
+    color: white;
+    background-color: var(--RM-BtnBlue);
+    border-color: var(--RM-BtnBlue);
+}

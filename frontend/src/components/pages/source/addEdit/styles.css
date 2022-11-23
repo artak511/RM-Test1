@@ -1,0 +1,8 @@
+.add-edit {
+    margin: 20px;
+}
+
+.add-edit .ant-btn {
+    min-width: 40px;
+    margin-right: 7px;
+}
