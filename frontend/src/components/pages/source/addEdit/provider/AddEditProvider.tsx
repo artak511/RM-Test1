@@ -58,6 +58,8 @@ export const AddEditProvider = (props: any) => {
         if (source.ipAddress !== formData.ipAddress) {
           dataToSubmit['ipAddress'] = formData.ipAddress
         }
+      } else {
+        dataToSubmit['ipAddress'] = formData.ipAddress
       }
       try {
         const res = await request(requestUrl, {
