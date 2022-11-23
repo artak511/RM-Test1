@@ -21,7 +21,7 @@ export const Source = React.memo(() => {
     {
       key: 'tags', title: 'Tags', dataIndex: 'tags',
       render: (tags: string[]) => {
-        return tags.join(', ')
+        return tags?.join(', ')
       }
     },
     {
